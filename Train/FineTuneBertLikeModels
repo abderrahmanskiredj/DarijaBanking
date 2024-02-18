@@ -1,0 +1,10 @@
+In order to fine-tune a pre-trained bert-like model on DarijaBanking data:
+
+1- Make the necessary installations
+!pip install --quiet transformers evaluate datasets accelerate torch
+
+2- Log in to HuggingFace Hub in order to be able to download the data once the access is granted for you
+!huggingface-cli login --token <your_hf_token_here>
+
+3- run the training command by filling in the right model_name and the output directory
+!python run_glue.py --model_name_or_path  "aubmindlab/bert-base-arabertv02-twitter" --output_dir Models/arabert --dataset_name "AbderrahmanSkiredj1/banking_ar_dar_train"   --overwrite_output_dir True --max_seq_length 128 --do_train True --num_train_epochs 20 --per_device_train_batch_size 64 --save_steps 400
