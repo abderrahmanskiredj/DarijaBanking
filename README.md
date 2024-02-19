@@ -68,4 +68,4 @@ Please cite our paper if you use the DarijaBanking dataset or any part of this w
 | FacebookAI/xlm-roberta-base                   | AbderrahmanSkiredj1/banking_eng_fr_ar_xlm               | English, French, Arabic                 |
 | FacebookAI/xlm-roberta-base                   | AbderrahmanSkiredj1/banking_eng_fr_xlm                  | English, French                         |
 
-The models listed are currently private but you can send a request if you would like to gain access to them.
+The models listed are currently private, except for the model AbderrahmanSkiredj1/banking_ar_dar_arabertv02twitter which is public, but you can send a request if you would like to gain access to them.
