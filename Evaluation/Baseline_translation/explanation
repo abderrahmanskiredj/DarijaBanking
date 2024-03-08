@@ -1,0 +1,4 @@
+As a baseline, we just train an english intent classifier by fine-tuning Bert. Then, when we receive a user query in Arabic or in Darija, we just translate it to english using seamlessm4t translation model and then classify it using this Bert Intent Classifier.
+In this folder we have 2 notebooks:
+- seamless.ipynb to translate the test data from darija/arabic to english
+- base_line_bert_with_translation.ipynb to evaluate this baseline
